@@ -1,0 +1,33 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "editor.formatOnSave": true,
+  "[javascript]": {},
+  "[javascriptreact]": {},
+  "[typescript]": {},
+  "[typescriptreact]": {},
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "files.trimTrailingWhitespace": false
+  },
+  "explorer.fileNesting.enabled": true,
+  "intelephense.environment.phpVersion": "8.5",
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".php",
+        "cmd": "chmod +x ./tool/php-format-on-save.sh && ./tool/php-format-on-save.sh ${relativeFile}"
+      }
+    ]
+  }
+}
