@@ -7,6 +7,8 @@ use PhpCsFixer\Finder;
 
 return (new Config())
     ->setRiskyAllowed(true)
+    // List of Available Rules - PHP Coding Standards Fixer]
+    // https://cs.symfony.com/doc/rules/
     ->setRules([
         '@PSR2' => true,
         'align_multiline_comment' => true,
@@ -93,7 +95,9 @@ return (new Config())
         'phpdoc_scalar' => true,
         'phpdoc_single_line_var_spacing' => true,
         'phpdoc_summary' => true,
-        'phpdoc_to_comment' => true,
+        'phpdoc_to_comment' => [
+            'ignored_tags' => ['psalm-suppress'],
+        ],
         'phpdoc_trim' => true,
         'phpdoc_types' => true,
         'phpdoc_types_order' => true,
@@ -107,7 +111,6 @@ return (new Config())
         'short_scalar_cast' => true,
         'simplified_null_return' => true,
         'single_blank_line_before_namespace' => true,
-        'single_line_comment_style' => true,
         'single_quote' => true,
         'space_after_semicolon' => ['remove_in_empty_for_expressions' => true],
         'standardize_not_equals' => true,

@@ -62,6 +62,9 @@
     "lint": [
       "./vendor/bin/psalm"
     ],
+    "lint:fix": [
+      "./vendor/bin/psalm --alter --issues=all"
+    ],
     "format": [
       "./vendor/bin/php-cs-fixer fix"
     ]
