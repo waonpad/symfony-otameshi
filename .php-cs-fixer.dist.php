@@ -95,9 +95,7 @@ return (new Config())
         'phpdoc_scalar' => true,
         'phpdoc_single_line_var_spacing' => true,
         'phpdoc_summary' => true,
-        'phpdoc_to_comment' => [
-            'ignored_tags' => ['psalm-suppress'],
-        ],
+        'phpdoc_to_comment' => ['ignored_tags' => ['psalm-suppress']],
         'phpdoc_trim' => true,
         'phpdoc_types' => true,
         'phpdoc_types_order' => true,
