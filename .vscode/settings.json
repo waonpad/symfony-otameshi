@@ -11,7 +11,8 @@
   "[typescript]": {},
   "[typescriptreact]": {},
   "[php]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
   },
   "[python]": {
     "editor.tabSize": 4
@@ -22,12 +23,6 @@
   },
   "explorer.fileNesting.enabled": true,
   "intelephense.environment.phpVersion": "8.5",
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": ".php",
-        "cmd": "chmod +x ./tool/php-format-on-save.sh && ./tool/php-format-on-save.sh ${relativeFile}"
-      }
-    ]
-  }
+  "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+  "php-cs-fixer.ignorePHPVersion": true
 }

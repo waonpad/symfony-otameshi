@@ -1,6 +1,6 @@
 {
   "recommendations": [
     "bmewburn.vscode-intelephense-client",
-    "emeraldwalk.RunOnSave"
+    "junstyle.php-cs-fixer"
   ]
 }
