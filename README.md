@@ -67,11 +67,19 @@ symfony new <プロジェクト名>
 ### パッケージのインストール
 
 ```bash
-composer require maker doctrine/annotations --dev
+composer require maker doctrine/annotations friendsofphp/php-cs-fixer --dev
 ```
 
 ### Controller の作成
 
 ```bash
 symfony console make:controller HelloWorldController
+```
+
+## 開発コマンド
+
+### フォーマット
+  
+```bash
+composer format
 ```
