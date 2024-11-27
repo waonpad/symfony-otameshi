@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "bmewburn.vscode-intelephense-client",
-    "junstyle.php-cs-fixer"
+    "junstyle.php-cs-fixer",
+    "getpsalm.psalm-vscode-plugin"
   ]
 }

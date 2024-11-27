@@ -78,6 +78,12 @@ symfony console make:controller HelloWorldController
 
 ## 開発コマンド
 
+### 性的解析
+
+```bash
+composer lint
+```
+
 ### フォーマット
   
 ```bash

@@ -8,6 +8,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Attribute\Route;
 
+/** @psalm-api */
 class HelloWorldController extends AbstractController
 {
     #[Route('/hello/world', name: 'app_hello_world')]

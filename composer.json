@@ -4,7 +4,7 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
-    "php": ">=8.2",
+    "php": ">=8.3",
     "ext-ctype": "*",
     "ext-iconv": "*",
     "symfony/console": "7.1.*",
@@ -17,7 +17,8 @@
   "require-dev": {
     "doctrine/annotations": "*",
     "friendsofphp/php-cs-fixer": "^3.65",
-    "symfony/maker-bundle": "*"
+    "symfony/maker-bundle": "*",
+    "vimeo/psalm": "^5.26.1"
   },
   "config": {
     "allow-plugins": {
@@ -58,8 +59,11 @@
     "post-update-cmd": [
       "@auto-scripts"
     ],
+    "lint": [
+      "./vendor/bin/psalm"
+    ],
     "format": [
-      "PHP_CS_FIXER_IGNORE_ENV=1 ./vendor/bin/php-cs-fixer fix"
+      "./vendor/bin/php-cs-fixer fix"
     ]
   },
   "conflict": {
