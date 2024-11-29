@@ -17,7 +17,8 @@
   "require-dev": {
     "doctrine/annotations": "*",
     "friendsofphp/php-cs-fixer": "^3.65",
-    "symfony/maker-bundle": "*"
+    "symfony/maker-bundle": "*",
+    "vimeo/psalm": "^5.26"
   },
   "config": {
     "allow-plugins": {
