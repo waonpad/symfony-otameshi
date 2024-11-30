@@ -56,26 +56,6 @@ composer install
 symfony server:start
 ```
 
-## このプロジェクトが作成された手順
-
-### プロジェクトの作成
-
-```bash
-symfony new <プロジェクト名>
-```
-
-### パッケージのインストール
-
-```bash
-composer require maker doctrine/annotations friendsofphp/php-cs-fixer --dev
-```
-
-### Controller の作成
-
-```bash
-symfony console make:controller HelloWorldController
-```
-
 ## 開発コマンド
 
 ### 性的解析
@@ -88,4 +68,10 @@ composer lint
   
 ```bash
 composer format
+```
+
+### Controller の作成
+
+```bash
+symfony console make:controller HelloWorldController
 ```
