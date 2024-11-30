@@ -58,7 +58,7 @@ symfony server:start
 
 ## 開発コマンド
 
-### 性的解析
+### 静的解析
 
 ```bash
 composer lint
