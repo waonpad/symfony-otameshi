@@ -19,13 +19,13 @@ cp -n .env.example .env
 [shivammathur/homebrew-php: :beer: Homebrew tap for PHP 5.6 to 8.4. PHP 8.4 is built nightly.](https://github.com/shivammathur/homebrew-php)
 
 ```bash
-brew install shivammathur/php/php@8.5
+brew install shivammathur/php/php@8.3
 ```
 
 #### グローバルで使用される PHP のバージョンを設定
 
 ```bash
-brew link --force --overwrite shivammathur/php/php@8.5
+brew link --force --overwrite shivammathur/php/php@8.3
 ```
 
 ### Symfony CLI のインストール
