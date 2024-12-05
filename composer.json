@@ -17,8 +17,8 @@
   "require-dev": {
     "doctrine/annotations": "*",
     "friendsofphp/php-cs-fixer": "^3.65",
-    "symfony/maker-bundle": "*",
-    "vimeo/psalm": "^5.26"
+    "phpstan/phpstan": "^2.0",
+    "symfony/maker-bundle": "*"
   },
   "config": {
     "allow-plugins": {
@@ -60,10 +60,7 @@
       "@auto-scripts"
     ],
     "lint": [
-      "./vendor/bin/psalm"
-    ],
-    "lint:fix": [
-      "./vendor/bin/psalm --alter --issues=all"
+      "./vendor/bin/phpstan analyze"
     ],
     "format": [
       "./vendor/bin/php-cs-fixer fix"
