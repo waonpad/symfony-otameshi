@@ -2,6 +2,7 @@
   "recommendations": [
     "junstyle.php-cs-fixer",
     "getpsalm.psalm-vscode-plugin",
-    "bmewburn.vscode-intelephense-client"
+    "bmewburn.vscode-intelephense-client",
+    "SanderRonde.phpstan-vscode"
   ]
 }
